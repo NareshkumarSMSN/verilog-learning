@@ -6,6 +6,6 @@ module full_adder_dataflow (
     output S,C;
 
     assign S = A^B^Cin;
-    assign C = (A&B)|(B&Cin)|(A&Cin);
+    assign C =  ;
 
 endmodule
