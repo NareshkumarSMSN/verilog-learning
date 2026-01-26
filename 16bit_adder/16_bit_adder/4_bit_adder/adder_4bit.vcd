@@ -1,0 +1,59 @@
+$date
+	Mon Jan 26 15:31:31 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module adder_4bit_tb $end
+$var wire 1 ! carry $end
+$var wire 4 " Z [3:0] $end
+$var reg 4 # X [3:0] $end
+$var reg 4 $ Y [3:0] $end
+$var reg 1 % cin $end
+$scope module uut $end
+$var wire 4 & X [3:0] $end
+$var wire 4 ' Y [3:0] $end
+$var wire 1 % cin $end
+$var wire 1 ! carry $end
+$var wire 4 ( Z [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+b0 "
+0!
+$end
+#5
+b1 "
+b1 (
+1%
+#10
+b1111 "
+b1111 (
+1!
+b1111 $
+b1111 '
+b1111 #
+b1111 &
+#15
+0!
+b1110 "
+b1110 (
+b10 $
+b10 '
+b1011 #
+b1011 &
+#20
