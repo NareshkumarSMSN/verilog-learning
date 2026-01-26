@@ -1,0 +1,74 @@
+$date
+	Mon Jan 26 13:37:00 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module adder_16bit_tb $end
+$var wire 1 ! zero $end
+$var wire 1 " sign $end
+$var wire 1 # parity $end
+$var wire 1 $ overflow $end
+$var wire 1 % carry $end
+$var wire 16 & Z [15:0] $end
+$var reg 16 ' X [15:0] $end
+$var reg 16 ( Y [15:0] $end
+$scope module uut $end
+$var wire 16 ) X [15:0] $end
+$var wire 16 * Y [15:0] $end
+$var wire 1 $ overflow $end
+$var wire 1 ! zero $end
+$var wire 1 " sign $end
+$var wire 1 # parity $end
+$var wire 1 % carry $end
+$var wire 16 + Z [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+0%
+0$
+1#
+0"
+1!
+$end
+#5
+1"
+0!
+b1111111111111111 &
+b1111111111111111 +
+b1111111111111111 '
+b1111111111111111 )
+#10
+0"
+1!
+b0 &
+b0 +
+1%
+b1 (
+b1 *
+#15
+1"
+0!
+0#
+b1111111111111101 &
+b1111111111111101 +
+0%
+b10 (
+b10 *
+b1111111111111011 '
+b1111111111111011 )
+#20
